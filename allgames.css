@@ -1,0 +1,850 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&family=Ubuntu:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+button:hover {
+  transition: 0.2s ease;
+  border: 2px solid #FFFFFF;
+}
+
+h1 {
+  font-size: 102px;
+  line-height: 100px;
+  font-weight: 700;
+  color: white;
+  font-style: normal;
+}
+/* Catalog Name*/
+h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 28px;
+  color: white;
+  font-style: normal;
+  text-transform: uppercase;
+}
+/* "The most secure page" */
+h3 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: white;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+/* ProductName */
+h4 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 28px;
+  color: white;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 10px;
+  color: white;
+ }
+
+button {
+  color: white;
+  width: 185px;
+  height: 48px;
+  background: #E55B13;
+  border-radius: 80px;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: absolute;
+  border-color: #E55B13;
+  border: none;
+}
+
+img {
+  cursor: pointer;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+ }
+
+ body {
+  width: 100%;
+  background-color: #010922;
+  overflow-x: hidden;
+ }
+
+ /* Header starts here */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 0px white;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: 10px 100px;
+  background: #010922 ;
+  width: 100%;
+}
+
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: orange;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width:30%;
+  height: 2px;
+  background: orange;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#mobile {
+  display: none;
+  align-items: center;
+}
+
+#close {
+  display: none;
+}
+
+#lg-bag {
+  display: none;
+}
+
+
+/* Products All Games Starts Here */
+
+#products {
+  margin: 10px 5px;
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
+
+#products img{
+  width: 200px;
+  height: 250px;
+  border-radius: 6px;
+}
+
+#products .pro {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.2s ease;
+  position: relative;
+  height: 350px;
+}
+
+#products .pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+
+#products .pro-container2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
+
+#products .pro-container3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
+
+#products .pro-container4 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
+
+#products .pro .money {
+  color: white;
+  position: absolute;
+  right: 12px;
+  bottom: 60px;
+}
+
+#products .addtocart {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: lowercase;
+  width: 116px;
+  height: 33px;
+  border-radius: 80px;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  left: 25%;
+  bottom: 0px;
+  padding: 5px;
+  text-decoration: none;
+  background: #E55B13;
+  color: #FFFFFF;
+}
+
+#products .addtocart:hover {
+  transition: 0.2s ease;
+  border: 3px solid #FFFFFF;
+}
+
+#products .allgames{
+  padding-left: 15px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 28px;
+  color: white;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+#products .star{
+  color: #E55B13
+}
+
+#products .pro:hover{
+  box-shadow: 2px 2px 20px 2px white ;
+}
+
+#products .pro2 {
+  display: none;
+}
+
+
+/* Downbar starts here */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  top: 1900px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+footer .col2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+footer .col3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+footer .logo {
+  margin-bottom: 5px;
+}
+
+footer h5 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 5px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
+}
+
+footer .follow {
+  margin-top: 10px;
+}
+
+footer .follow i {
+  color: #FFFFFF;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+footer .install .row img {
+  border: 1px solid #E55B13;
+  border-radius: 12px;
+
+}
+
+footer .install img {
+  margin: 5px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #E55B13;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+
+footer strong {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Media Query Starts Here */
+
+
+
+
+
+@media (max-width:1440px) {
+
+  #products {
+    margin: 10px 10px;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    }
+
+}
+
+@media (max-width:1280px) {
+
+  .section-p1 {
+    padding: 30px 20px;
+   }
+
+  #products {
+    margin: 2px 190px;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    }
+
+    #products img{
+      width: 150px;
+      height: 200px;
+      border-radius: 6px;
+    }
+
+    #products .pro {
+      padding: 8px 10px;
+      height: 300px;
+    }
+
+    #products .pro .money {
+      color: white;
+      position: absolute;
+      right: 12px;
+      bottom: 60px;
+      font-size: 16px;
+    }
+
+    #products h4{
+      font-size: 17px;
+    }
+
+    #products .addtocart {
+      left: 15%;
+      bottom: 0px;
+    }
+
+    footer {
+      top: 1650px;
+    }
+
+}
+
+@media (max-width:1024px) {
+
+  .section-p1 {
+    padding: 20px 40px;
+   }
+
+  #products {
+    margin: 2px 2px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    }
+
+    #products img{
+      width: 150px;
+      height: 200px;
+      border-radius: 6px;
+    }
+
+    #products .pro {
+      padding: 8px 12px;
+      height: 300px;
+    }
+
+    #products .pro .money {
+      color: white;
+      position: absolute;
+      right: 12px;
+      bottom: 60px;
+      font-size: 16px;
+    }
+
+    #products h4{
+      font-size: 17px;
+    }
+
+    #products .addtocart {
+      left: 15%;
+      bottom: 0px;
+    }
+}
+
+@media (max-width:820px) {
+
+  .section-p1 {
+    padding: 40px 5px;
+   }
+
+  #header img {
+    width: 200px;
+    height: 110px;
+  }
+
+  #header {
+    padding: 20px 40px;
+    
+  }
+
+
+/* Products All Games Starts Here */
+
+  #products {
+  margin: 10px 10px;
+  position: absolute;
+  top: 180px;
+  left: 30px;
+  }
+
+  #products .pro {
+    padding: 6px 13px;
+    height: 235px;
+  }
+
+  #products img{
+    width: 120px;
+    height: 150px;
+    border-radius: 6px;
+  }
+
+  #products .pro .money {
+    position: absolute;
+    right: 2px;
+    bottom: 47px;
+    font-size: 14px;
+  }
+
+  #products .addtocart {
+    width: 87px;
+    height: 22px;
+    font-size: 12px;
+    position: absolute;
+    left: 19%;
+    bottom: 3px;
+  }
+
+  #products .allgames{
+    padding-left: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+  }
+
+  #products h4 {
+    font-size: 15px;
+  }
+
+  #products .star{
+    font-size: 11px;
+  }
+
+  /* footer starst here */
+
+footer .logo {
+  display: none;
+}
+
+footer {
+  top: 1250px;
+}
+
+footer .col{
+  margin-bottom: 5px;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+footer .col2{
+  margin-top: 25px;
+  margin-left: 3px;
+}
+
+footer .col3{
+  margin-top: 25px;
+  margin-left: 3px;
+}
+
+footer .install {
+  margin-left: 10px;
+}
+
+footer h5 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+ footer p {
+  font-size: 11px;
+  margin: 0 0 3px 0;
+ }
+
+ footer a {
+  font-size: 13px;
+  margin-bottom: 8px;
+ }
+
+ footer .install img {
+  width: 40%;
+ }
+
+ footer strong {
+  font-weight: 600;
+  letter-spacing: 2px;
+ }  
+
+
+}
+
+@media (max-width:799px) {
+
+  .section-p1 {
+    padding: 40px 5px;
+   }
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 200px;
+    background: #010922;
+    box-shadow: 0 5px 0px white;
+    padding: 85px 0 0 10px;
+    transition: 0.3;
+  }
+
+  #navbar.active{
+    right: 0px;
+    z-index: 1;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar .bar {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i{
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 24px;
+    top: 40px;
+    left: 30px;
+  }
+
+  #lg-bag {
+    display: none;
+  }
+
+  #header img {
+    width: 200px;
+    height: 110px;
+  }
+
+  /* Header starts here */
+
+  
+/* Products All Games Starts Here */
+
+  #products {
+  margin: 6px 10px;
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  }
+
+  #products .pro {
+    padding: 6px 12px;
+    height: 215px;
+  }
+
+  #products img{
+    width: 105px;
+    height: 135px;
+    border-radius: 6px;
+  }
+
+  #products h4 {
+    font-size: 13px;
+  }
+
+  #products .pro .money {
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+    font-size: 12px;
+  }
+
+  #products .addtocart {
+    width: 85px;
+    height: 20px;
+    font-size: 11px;
+    position: absolute;
+    left: 13%;
+    bottom: 3px;
+  }
+
+  #products .allgames{
+    padding-left: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+  }
+
+
+  #products .star{
+    font-size: 9px;
+  }
+
+  /* footer starst here */
+
+footer .logo {
+  display: none;
+}
+
+footer {
+  top: 1100px;
+}
+
+
+}
+
+@media (max-width:768px) {
+
+  #products {
+    margin: 10px 5px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    }
+
+    #products img{
+      width: 120px;
+      height: 150px;
+      border-radius: 6px;
+    }
+
+    #products .pro {
+      padding: 6px 12px;
+      height: 225px;
+    }
+
+    #products h4 {
+      font-size: 13px;
+    }
+
+    #products .pro .money {
+      position: absolute;
+      right: 10px;
+      bottom: 37px;
+      font-size: 12px;
+    }
+
+    footer {
+      top: 1150px;
+    }
+
+}
+
+@media (max-width:477px) {
+
+  .section-p1 {
+    padding: 60px 40px;
+   }
+
+  #products {
+    top: 110px;
+    }
+
+    #products .pro {
+      padding: 12px 5px;
+      height: 240px;
+    }
+
+    #products .pro .money {
+      position: absolute;
+      right: 10px;
+      bottom: 27px;
+      font-size: 12px;
+    }
+
+    #products .pro2 .money {
+      position: absolute;
+      right: 12px;
+      bottom: 32px;
+      font-size: 10px;
+    }
+
+    #products .pro2 {
+      padding: 12px 5px;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: 0.2s ease;
+      position: relative;
+      display: initial;
+      height: 240px;
+    }
+
+    footer {
+      top: 3100px;
+    }
+}
+
+@media (max-width:320px) {
+
+  .section-p1 {
+    padding: 2px 2px;
+   }
+
+  #products {
+    top: 200px;
+    }
+
+    #products .pro {
+      padding: 10px 12px;
+      height: 235px;
+    }
+
+    #products .pro .money {
+      position: absolute;
+      right: 10px;
+      bottom: 27px;
+      font-size: 12px;
+    }
+
+    #products .pro2 .money {
+      position: absolute;
+      right: 12px;
+      bottom: 32px;
+      font-size: 10px;
+    }
+
+    #products .pro2 {
+      padding: 6px 12px;
+      height: 235px;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: 0.2s ease;
+      position: relative;
+      display: initial;
+    }
+
+    footer {
+      top: 3100px;
+    }
+}
