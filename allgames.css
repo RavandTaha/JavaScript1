@@ -93,6 +93,13 @@ img {
   overflow-x: hidden;
  }
 
+  /* API CALLS CSS */
+ #product-list a {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+}
+
  /* Header starts here */
 
 #header {
@@ -174,6 +181,7 @@ img {
   height: 250px;
   border-radius: 6px;
 }
+
 
 #products .pro {
   padding: 8px 15px;
