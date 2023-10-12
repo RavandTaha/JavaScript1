@@ -25,6 +25,7 @@ fetch(apiUrl)
 
 		});
 	})
+
 	.catch((error) => {
 		productList.innerHTML = '<div class="error">There was an error fetching the games</div>';
 		console.error("Error fetching data:", error);
