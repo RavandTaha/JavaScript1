@@ -94,15 +94,47 @@ img {
  }
 
   /* API CALLS CSS */
+
+ #product-list {
+  margin: 210px 0px;
+  position: absolute;
+  top: 0px;
+}
+
+ #product-list img{
+  width: 250px;
+  height: 350px;
+  border-radius: 6px;
+ }
+
+ #product-list div {
+    display: inline-block;
+    margin: 25px 10px;
+ }
+
  #product-list a {
   text-decoration: none;
-  font-size: 50px;
+  font-size: 30px;
   color: white;
-}
- #product-list img{
-  width: 300px;
-  height: 300px;
  }
+
+ #product-list p {
+  font-size: 12px;
+  width: 450px;
+  margin: 5px 0px;
+  font: 200;
+  letter-spacing: 0.2px;
+ }
+
+ #product-list h2{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color:#FFFFFF;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
  /* Header starts here */
 

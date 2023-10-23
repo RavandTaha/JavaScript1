@@ -21,6 +21,9 @@ fetch(apiUrl)
 			const description = document.createElement("p");
 			description.innerText = product.description;
 			productItem.append(description);
+			const image = document.createElement("img");
+			image.src = product.image;
+			productItem.append(image);
 			productList.append(productItem);
 
 		});
