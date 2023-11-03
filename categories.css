@@ -371,114 +371,6 @@ img {
 
 
 
-/* Products All Games Starts Here */
-
-#products {
-  margin: 10px 20px;
-  position: absolute;
-  top: 910px;
-  left: 200px;
-}
-
-#products img{
-  width: 200px;
-  height: 250px;
-  border-radius: 6px;
-}
-
-#products .pro {
-  padding: 10px 19px;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: 0.2s ease;
-  position: relative;
-  height: 350px;
-}
-
-#products .pro-container {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
-  flex-wrap: wrap;
-}
-
-#products .pro-container2 {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-
-#products .pro-container3 {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-
-#products .pro-container4 {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-
-#products .pro .money {
-  color: white;
-  position: absolute;
-  right: 12px;
-  bottom: 60px;
-}
-
-#products .addtocart {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-transform: lowercase;
-  width: 116px;
-  height: 33px;
-  border-radius: 80px;
-  font-weight: 600;
-  font-size: 18px;
-  cursor: pointer;
-  position: absolute;
-  left: 25%;
-  bottom: 0px;
-  padding: 5px;
-  text-decoration: none;
-  background: #E55B13;
-  color: #FFFFFF;
-}
-
-#products .addtocart:hover {
-  transition: 0.2s ease;
-  border: 3px solid #FFFFFF;
-}
-
-#products .allgames{
-  padding-left: 15px;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 28px;
-  color: white;
-  font-style: normal;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 2px;
-}
-
-#products .star{
-  color: #E55B13
-}
-
-#products .pro:hover{
-  box-shadow: 2px 2px 20px 2px white ;
-}
-
-#products .pro2 {
-  display: none;
-}
 
 
 /* Downbar starts here */
@@ -487,7 +379,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 2567px;
+  top: 1000px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -898,7 +790,7 @@ footer .logo {
 }
 
 footer {
-  top: 1850px;
+  top: 800px;
 }
 
 
@@ -1409,7 +1301,7 @@ footer .logo {
 }
 
 footer {
-  top: 1750px;
+  top: 750px;
 }
 
 }
@@ -1696,9 +1588,6 @@ footer .logo {
   display: none;
 }
 
-footer {
-  top: 1600px;
-}
 
 
 }
@@ -1933,10 +1822,6 @@ footer .logo {
   display: none;
 }
 
-footer {
-  top: 1600px;
-}
-
 
 }
 
@@ -2102,7 +1987,7 @@ footer .logo {
 }
 
 footer {
-  top: 1900px;
+  top: 500px;
 }
 
 footer .col{

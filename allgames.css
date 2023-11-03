@@ -79,10 +79,6 @@ button {
   border: none;
 }
 
-img {
-  cursor: pointer;
-}
-
 .section-p1 {
   padding: 40px 80px;
  }
@@ -92,49 +88,6 @@ img {
   background-color: #010922;
   overflow-x: hidden;
  }
-
-  /* API CALLS CSS */
-
- #product-list {
-  margin: 210px 0px;
-  position: absolute;
-  top: 0px;
-}
-
- #product-list img{
-  width: 250px;
-  height: 350px;
-  border-radius: 6px;
- }
-
- #product-list div {
-    display: inline-block;
-    margin: 25px 10px;
- }
-
- #product-list a {
-  text-decoration: none;
-  font-size: 30px;
-  color: white;
- }
-
- #product-list p {
-  font-size: 12px;
-  width: 450px;
-  margin: 5px 0px;
-  font: 200;
-  letter-spacing: 0.2px;
- }
-
- #product-list h2{
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 30px;
-  color:#FFFFFF;
-  font-style: normal;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
 
  /* Header starts here */
 
@@ -203,114 +156,45 @@ img {
 }
 
 
-/* Products All Games Starts Here */
+  /* API CALLS CSS */
 
-#products {
-  margin: 10px 5px;
+ #product-list {
+  margin: 250px 150px;
   position: absolute;
-  top: 200px;
-  left: 250px;
+  top: 0px;
 }
 
-#products img{
-  width: 200px;
-  height: 250px;
-  border-radius: 6px;
-}
-
-
-#products .pro {
-  padding: 8px 15px;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: 0.2s ease;
-  position: relative;
+ #product-list img{
+  width: 250px;
   height: 350px;
-}
+  border-radius: 6px;
+ }
 
-#products .pro-container {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
-  flex-wrap: wrap;
-}
+ #product-list div {
+    display: inline-block;
+    margin: 30px 15px;
+ }
 
-#products .pro-container2 {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-
-#products .pro-container3 {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-
-#products .pro-container4 {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-
-#products .pro .money {
-  color: white;
-  position: absolute;
-  right: 12px;
-  bottom: 60px;
-}
-
-#products .addtocart {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-transform: lowercase;
-  width: 116px;
-  height: 33px;
-  border-radius: 80px;
-  font-weight: 600;
-  font-size: 18px;
-  cursor: pointer;
-  position: absolute;
-  left: 25%;
-  bottom: 0px;
-  padding: 5px;
+ #product-list a {
   text-decoration: none;
-  background: #E55B13;
-  color: #FFFFFF;
-}
+  font-size: 30px;
+  color: #E55B13;
+ }
 
-#products .addtocart:hover {
-  transition: 0.2s ease;
-  border: 3px solid #FFFFFF;
-}
+ #product-list p {
+  font-size: 12px;
+  width: 450px;
+  margin: 5px 0px;
+  font: 200;
+  letter-spacing: 0.2px;
+ }
 
-#products .allgames{
-  padding-left: 15px;
+ #product-list h2{
   font-weight: 700;
-  font-size: 25px;
-  line-height: 28px;
-  color: white;
-  font-style: normal;
-  text-transform: uppercase;
-  text-decoration: none;
+  font-size: 40px;
+  line-height: 40px;
+  color:#FFFFFF;
   letter-spacing: 2px;
-}
-
-#products .star{
-  color: #E55B13
-}
-
-#products .pro:hover{
-  box-shadow: 2px 2px 20px 2px white ;
-}
-
-#products .pro2 {
-  display: none;
 }
 
 
@@ -320,7 +204,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 1900px;
+  top: 2300px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -405,17 +289,20 @@ footer strong {
 /* Media Query Starts Here */
 
 
-
-
-
 @media (max-width:1440px) {
 
-  #products {
-    margin: 10px 10px;
-    position: absolute;
-    top: 180px;
-    left: 20px;
-    }
+  footer {
+    top: 2900px;
+  }
+
+  #product-list {
+    margin: 210px 0px;
+  }
+
+  #product-list div {
+    margin: 30px 11px;
+ }
+
 
 }
 
@@ -425,44 +312,18 @@ footer strong {
     padding: 30px 20px;
    }
 
-  #products {
-    margin: 2px 190px;
-    position: absolute;
-    top: 180px;
-    left: 0px;
-    }
-
-    #products img{
-      width: 150px;
-      height: 200px;
-      border-radius: 6px;
-    }
-
-    #products .pro {
-      padding: 8px 10px;
-      height: 300px;
-    }
-
-    #products .pro .money {
-      color: white;
-      position: absolute;
-      right: 12px;
-      bottom: 60px;
-      font-size: 16px;
-    }
-
-    #products h4{
-      font-size: 17px;
-    }
-
-    #products .addtocart {
-      left: 15%;
-      bottom: 0px;
-    }
-
     footer {
-      top: 1650px;
+      top: 2800px;
     }
+
+    #product-list {
+      margin: 210px 0px;
+    }
+  
+    #product-list div {
+      margin: 30px 11px;
+   }
+
 
 }
 
@@ -472,46 +333,21 @@ footer strong {
     padding: 20px 40px;
    }
 
-  #products {
-    margin: 2px 2px;
-    position: absolute;
-    top: 200px;
-    left: 0px;
-    }
+   #product-list {
+    margin: 210px 0px;
+  }
 
-    #products img{
-      width: 150px;
-      height: 200px;
-      border-radius: 6px;
-    }
+  #product-list div {
+    margin: 30px 11px;
+ }
 
-    #products .pro {
-      padding: 8px 12px;
-      height: 300px;
-    }
 
-    #products .pro .money {
-      color: white;
-      position: absolute;
-      right: 12px;
-      bottom: 60px;
-      font-size: 16px;
-    }
-
-    #products h4{
-      font-size: 17px;
-    }
-
-    #products .addtocart {
-      left: 15%;
-      bottom: 0px;
-    }
 }
 
 @media (max-width:820px) {
 
   .section-p1 {
-    padding: 40px 5px;
+    padding: 0px 0px;
    }
 
   #header img {
@@ -520,62 +356,20 @@ footer strong {
   }
 
   #header {
-    padding: 20px 40px;
-    
+    padding: 20px 40px; 
   }
 
 
 /* Products All Games Starts Here */
 
-  #products {
-  margin: 10px 10px;
-  position: absolute;
-  top: 180px;
-  left: 30px;
-  }
+#product-list {
+  margin: 0px 0px;
+}
 
-  #products .pro {
-    padding: 6px 13px;
-    height: 235px;
-  }
+#product-list div {
+  margin: 0px 0px;
+}
 
-  #products img{
-    width: 120px;
-    height: 150px;
-    border-radius: 6px;
-  }
-
-  #products .pro .money {
-    position: absolute;
-    right: 2px;
-    bottom: 47px;
-    font-size: 14px;
-  }
-
-  #products .addtocart {
-    width: 87px;
-    height: 22px;
-    font-size: 12px;
-    position: absolute;
-    left: 19%;
-    bottom: 3px;
-  }
-
-  #products .allgames{
-    padding-left: 8px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 2px;
-  }
-
-  #products h4 {
-    font-size: 15px;
-  }
-
-  #products .star{
-    font-size: 11px;
-  }
 
   /* footer starst here */
 
@@ -584,7 +378,7 @@ footer .logo {
 }
 
 footer {
-  top: 1250px;
+  top: 2000px;
 }
 
 footer .col{
@@ -704,56 +498,33 @@ footer h5 {
   
 /* Products All Games Starts Here */
 
-  #products {
-  margin: 6px 10px;
-  position: absolute;
-  top: 150px;
-  left: 40px;
+ #product-list {
+  margin: 200px 10px;
   }
 
-  #products .pro {
-    padding: 6px 12px;
-    height: 215px;
-  }
+ #product-list div {
+   margin: 30px 10px;
+ }
 
-  #products img{
-    width: 105px;
-    height: 135px;
-    border-radius: 6px;
-  }
+ #product-list img{
+  width: 200px;
+  height: 300px;
+ }
 
-  #products h4 {
-    font-size: 13px;
-  }
+ #product-list a {
+  font-size: 25px;
+ }
 
-  #products .pro .money {
-    position: absolute;
-    right: 10px;
-    bottom: 40px;
-    font-size: 12px;
-  }
+ #product-list p {
+  font-size: 9px;
+  width: 340px;
+ }
 
-  #products .addtocart {
-    width: 85px;
-    height: 20px;
-    font-size: 11px;
-    position: absolute;
-    left: 13%;
-    bottom: 3px;
-  }
+ #product-list h2 {
+  font-size: 40px; 
+}
 
-  #products .allgames{
-    padding-left: 8px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 2px;
-  }
-
-
-  #products .star{
-    font-size: 9px;
-  }
+  
 
   /* footer starst here */
 
@@ -762,7 +533,7 @@ footer .logo {
 }
 
 footer {
-  top: 1100px;
+  top: 2500px;
 }
 
 
@@ -770,37 +541,41 @@ footer {
 
 @media (max-width:768px) {
 
-  #products {
-    margin: 10px 5px;
-    position: absolute;
-    top: 150px;
-    left: 0px;
-    }
+  
 
-    #products img{
-      width: 120px;
-      height: 150px;
-      border-radius: 6px;
-    }
+  /* Products All Games Starts Here */
 
-    #products .pro {
-      padding: 6px 12px;
-      height: 225px;
+  #product-list {
+    margin: 200px 2px;
     }
+  
+   #product-list div {
+     margin: 30px 15px;
+   }
+  
+   #product-list img{
+    width: 200px;
+    height: 280px;
+   }
+  
+   #product-list a {
+    font-size: 25px;
+   }
+  
+   #product-list p {
+    font-size: 9px;
+    width: 280px;
+   }
+  
+   #product-list h2 {
+    font-size: 35px; 
+  }
 
-    #products h4 {
-      font-size: 13px;
-    }
 
-    #products .pro .money {
-      position: absolute;
-      right: 10px;
-      bottom: 37px;
-      font-size: 12px;
-    }
+    /* footer starst here */
 
     footer {
-      top: 1150px;
+      top: 2500px;
     }
 
 }
@@ -811,41 +586,40 @@ footer {
     padding: 60px 40px;
    }
 
-  #products {
-    top: 110px;
-    }
+   /* Products All Games Starts Here */
 
-    #products .pro {
-      padding: 12px 5px;
-      height: 240px;
-    }
+ #product-list {
+  margin: 200px 15px;
+  }
 
-    #products .pro .money {
-      position: absolute;
-      right: 10px;
-      bottom: 27px;
-      font-size: 12px;
-    }
+ #product-list div {
+   margin: 30px 15px;
+ }
 
-    #products .pro2 .money {
-      position: absolute;
-      right: 12px;
-      bottom: 32px;
-      font-size: 10px;
-    }
+ #product-list img{
+  width: 200px;
+  height: 300px;
+ }
 
-    #products .pro2 {
-      padding: 12px 5px;
-      cursor: pointer;
-      border-radius: 10px;
-      transition: 0.2s ease;
-      position: relative;
-      display: initial;
-      height: 240px;
-    }
+ #product-list a {
+  font-size: 25px;
+ }
+
+ #product-list p {
+  font-size: 9px;
+  width: 340px;
+ }
+
+ #product-list h2 {
+  font-size: 40px; 
+}
+
+
+
+     /* footer starst here */
 
     footer {
-      top: 3100px;
+      top: 4600px;
     }
 }
 
@@ -855,38 +629,12 @@ footer {
     padding: 2px 2px;
    }
 
-  #products {
-    top: 200px;
-    }
+   #product-list img{
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+   }
 
-    #products .pro {
-      padding: 10px 12px;
-      height: 235px;
-    }
-
-    #products .pro .money {
-      position: absolute;
-      right: 10px;
-      bottom: 27px;
-      font-size: 12px;
-    }
-
-    #products .pro2 .money {
-      position: absolute;
-      right: 12px;
-      bottom: 32px;
-      font-size: 10px;
-    }
-
-    #products .pro2 {
-      padding: 6px 12px;
-      height: 235px;
-      cursor: pointer;
-      border-radius: 10px;
-      transition: 0.2s ease;
-      position: relative;
-      display: initial;
-    }
 
     footer {
       top: 3100px;
