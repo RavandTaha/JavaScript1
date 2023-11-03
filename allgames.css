@@ -292,7 +292,7 @@ footer strong {
 @media (max-width:1440px) {
 
   footer {
-    top: 2900px;
+    top: 2800px;
   }
 
   #product-list {
@@ -334,12 +334,35 @@ footer strong {
    }
 
    #product-list {
-    margin: 210px 0px;
+    margin: 250px 10px;
+  }
+  
+   #product-list img{
+    width: 200px;
+    height: 300px;
+   }
+  
+   #product-list div {
+      margin: 30px 10px;
+   }
+  
+   #product-list a {
+    font-size: 25px;
+   }
+  
+   #product-list p {
+    font-size: 12px;
+    width: 350px;
+    margin: 5px 0px;
+   }
+  
+   #product-list h2{
+    font-size: 35px;
   }
 
-  #product-list div {
-    margin: 30px 11px;
- }
+ footer {
+  top: 2800px;
+}
 
 
 }
@@ -362,12 +385,32 @@ footer strong {
 
 /* Products All Games Starts Here */
 
-#product-list {
-  margin: 0px 0px;
-}
 
-#product-list div {
-  margin: 0px 0px;
+ #product-list {
+  margin: 250px 20px;
+ }
+
+ #product-list div {
+    margin: 30px 5px;
+ }
+
+ #product-list img{
+  width: 200px;
+  height: 280px;
+ }
+
+ #product-list a {
+  font-size: 25px;
+ }
+
+ #product-list p {
+  font-size: 12px;
+  width: 350px;
+  margin: 5px 0px;
+ }
+
+ #product-list h2{
+  font-size: 30px;
 }
 
 
@@ -378,7 +421,7 @@ footer .logo {
 }
 
 footer {
-  top: 2000px;
+  top: 2500px;
 }
 
 footer .col{
@@ -577,6 +620,42 @@ footer {
     footer {
       top: 2500px;
     }
+
+}
+
+@media (max-width:650px) {
+
+  /* Products All Games Starts Here */
+
+  #product-list {
+    margin: 200px 5px;
+    }
+  
+   #product-list div {
+     margin: 20px 10px;
+   }
+  
+   #product-list img{
+    width: 150px;
+    height: 200px;
+   }
+  
+   #product-list a {
+    font-size: 18px;
+   }
+  
+   #product-list p {
+    font-size: 7px;
+    width: 200px;
+   }
+  
+   #product-list h2 {
+    font-size: 25px; 
+  }
+
+  footer {
+    top: 1900px;
+  }
 
 }
 
