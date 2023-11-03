@@ -197,6 +197,12 @@ button {
   letter-spacing: 2px;
 }
 
+#product-list2 a:hover{
+  color: #FFFFFF;
+  transition: 0.2s ease;
+  font-weight: bolder;
+}
+
 
 /* Downbar starts here */
 

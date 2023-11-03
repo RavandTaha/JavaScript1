@@ -242,6 +242,12 @@ body {
     line-height: 40px;
   }
 
+  #product-list2 a:hover{
+    color: #FFFFFF;
+    transition: 0.2s ease;
+    font-weight: bolder;
+  }
+
 
 
  /* Banner starts here */

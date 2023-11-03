@@ -2,6 +2,8 @@ const bar = document.getElementById('bar');
 const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
 
+const loadingSpinner = document.getElementById('loading-spinner');
+
 // Define the URL of the external API
 const apiUrl = "https://api.noroff.dev/api/v1/gamehub";
 
@@ -23,6 +25,7 @@ if (close) {
 }
 
 
+
 // Fetch data from the API for homepage pages
 fetch(apiUrl)
 .then((response) => response.json())
@@ -39,6 +42,7 @@ fetch(apiUrl)
     const image = document.createElement("img");
     image.src = product.image;
     productItem.append(image);
+    image.href = "product2.html";
     productList2.append(productItem);
 
   });
